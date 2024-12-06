@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Mongolian&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sevillana&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url(acsvg.webp);
+    background: linear-gradient(to bottom right, rgba(17, 255, 45, 0.5), rgba(11, 13, 163, 0.5)), 
+    url("acsvg.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+nav{
+    display: flex;
+    align-items: ce;
+    justify-content: space-between;
+}
+
+
+.logo img{
+    width: 68px;
+    margin: 10px;
+}
+
+.container{
+    /* border: 2px solid red; */
+    margin-top: 40px;
+    padding: 20px;
+
+}
+
+.infocontainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    color: black;
+}
+span i{
+    color: rgb(239, 11, 11);
+}
+
+.info2{
+
+    margin: 20px;
+    color: red;
+}
+.number{
+    font-size: 26px;
+}
+
+
+.services{
+    margin-top: 20px;
+}
+.sercinner{
+    padding: 5px;
+    color: red;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.aboutme{
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.abheadline{
+    background-color: black ;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
