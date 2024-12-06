@@ -12,7 +12,7 @@ body{
     background: linear-gradient(to bottom right, rgba(17, 255, 45, 0.5), rgba(11, 13, 163, 0.5)), 
     url("acsvg.webp");
     background-position: center;
-    background-size: cover;
+    /* background-size: cover; */
     background-repeat: no-repeat;
 
 }
